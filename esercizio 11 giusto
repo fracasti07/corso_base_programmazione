@@ -1,0 +1,14 @@
+n_magico = 7
+n_user = 0
+output = "game over!"
+i = 1
+
+while i <= 10:
+        n_user = int(input("inserisci un numero: "))
+        if(n_user == n_magico) :
+                output =  "complimenti!"
+                break
+        i=1+1
+print("game over")
+
+C=input("press any key to exit")
