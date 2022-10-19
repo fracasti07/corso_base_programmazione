@@ -1,0 +1,11 @@
+numero=0
+i=0
+while i<=9:
+  numero=int(input("stampa primi 10 numeri"))
+  if(i%2):
+
+    print(i)
+else:
+    print(str(i)+"!")
+    i=i+1
+A=input("press any key to exit")
