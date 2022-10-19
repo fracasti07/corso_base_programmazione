@@ -1,0 +1,13 @@
+n1=int(input("inserisci il primo numero"))
+n2=int(input("inserisci secondo numero"))
+stmpato = 0
+   
+   
+if(n1>10):
+   print("fuori scala")
+   stampato = 1
+   if(n2>50):
+    print("troppo grande")
+    stampato = 1
+    if(stampato==0):
+        print("tutto ok")
