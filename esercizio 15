@@ -1,0 +1,8 @@
+numero = 0
+tot = 0
+counter_user_number =0
+I = 1
+while True: 
+numero =int(input("inserisci dei numeri"))
+if(numero==0):
+   print(tot)
