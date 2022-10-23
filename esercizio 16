@@ -1,0 +1,12 @@
+i =0
+numero_max = 0
+numero_min = 0
+while True
+    numero=int(input("inserisci un numero"))
+    if(numero==0)
+    break
+    if()
+
+    i=i+1
+print(numero_max)
+print(numero_min)
