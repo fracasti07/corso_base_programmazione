@@ -5,8 +5,8 @@ I = 1
 while True: 
    numero =int(input("inserisci dei numeri"))
    if(numero==0):
-  break
+   break
 else:
    tot=tot+1
 i=i+1
-   print(tot/1)
+print(tot/1)
