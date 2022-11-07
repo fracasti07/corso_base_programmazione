@@ -1,0 +1,11 @@
+guadagno=int(input("inserisci guadagno"))
+tasse=0
+if(guadagno<10000):
+    tasse=0
+else:
+    if(tasse<30000):
+        tasse=22/100*guadagno
+    else:
+        tasse=22/100*20000
+        tasse=tasse+33/100*(guadagno-30000)
+print("devi pagare"+str(tasse)+"€ di tasse")
